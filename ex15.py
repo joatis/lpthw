@@ -14,3 +14,7 @@ file_again = input("> ")
 txt_again = open(file_again)
 # print the contents of the file from the new filehandle.
 print(txt_again.read())
+
+txt.close()
+txt_again.clse()
+
