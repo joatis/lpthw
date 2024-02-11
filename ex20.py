@@ -17,7 +17,7 @@ def rewind(f):
 # a function prints the line of a specified line inb a file object
 def print_a_line(line_count, f):
   # prints line position the result of the file objects readline
-  print(line_count, f.readline())
+  print(line_count, f.readline(), end="")
 
 # Open the input file and assign to variable
 current_file = open(input_file)
