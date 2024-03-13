@@ -13,14 +13,14 @@ script, filename = sys.argv
 txt = open(filename)
 
 print("Here's your file {filename}:")
-print(tx.read())
+print(txt.read())
 
 print("Type the filename again:")
 file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again_read())
+print(txt_again.read())
 
 
 print("Let's practice everything.")
@@ -52,7 +52,7 @@ def secret_formula(started):
 
 
 start_point = 10000
-beans, jars = secret_formula(start_point)
+beans, jars, crates = secret_formula(start_point)
 
 # remember that this is another way to format a string
 print("With a starting point of: {}".format(start_point))
@@ -62,14 +62,14 @@ print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 start_point = start_point / 10
 
 print("We can also do that this way:")
-formula = secret_formula(startpoint)
+formula = secret_formula(start_point)
 # this is an easy way to apply a list to a format string
 print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 
 people = 20
-cates = 30
+cats = 30
 dogs = 15
 
 
