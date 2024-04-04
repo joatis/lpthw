@@ -21,3 +21,5 @@ if people > trucks:
 else:
   print("Fine, lets stay home then.")
 
+if trucks < people and people < cars:
+  print(f"There are {trucks} trucks, {people} people and {cars} cars.")
