@@ -5,7 +5,7 @@ def gold_room():
 
   choice = input("> ")
   ## Fixing the weird if test for 0 or 1 with the isnumeric function
-  if choice.isnumeric:
+  if choice.isnumeric():
     how_much = int(choice)
   else:
     dead("Man, learn to type a number,")
