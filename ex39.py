@@ -9,3 +9,8 @@ stuff[2] = "Neato"
 print(stuff[1])
 print(stuff[2])
 
+del stuff['city']
+del stuff[1]
+del stuff[2]
+print(stuff)
+
