@@ -4,5 +4,8 @@ print(stuff['age'])
 print(stuff['height'])
 stuff['city'] = "SF"
 print(stuff['city'])
-
+stuff[1] = "Wow"
+stuff[2] = "Neato"
+print(stuff[1])
+print(stuff[2])
 
