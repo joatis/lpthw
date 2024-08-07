@@ -1,5 +1,10 @@
-# this goes in mystuff.py
-def apple():
-  print("I AM APPLES!")
+# Making mystuff a class.
+class MyStuff(object):
 
-tangerine = "Living reflection of a dream."
+  def _init_ (self):
+    self.tangerine = "And now a thousand years between"
+
+  def apple(self):
+    print("I AM CLASSY APPLES!")
+
+
