@@ -90,7 +90,7 @@ class CentralCorridor(Scene):
         the academy. You tell the one Gothon joke you know:
         Lbhe zbgure vf fb sng, jura fur fvgf nebhaq gur ubhfr,
         fur fvgf nebhaq gur ubhfr.  The Gothon stops, tries 
-        notto laugh, then burts out laughing and can't move.
+        not to laugh, then burts out laughing and can't move.
         While he's laughing you run up and shoot him square in
         the head putting him down, then jump through the
         Weapon Armory door.
@@ -248,5 +248,8 @@ class Map(object):
   def opening_scene(self):
     return self.next_scene(self.start_scene)
   
+a_map = Map('central_corridor')
+a_game = Engine(a_map)
+a_game.play()
 
     
