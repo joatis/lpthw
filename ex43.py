@@ -118,7 +118,10 @@ class LaserWeaponArmory(Scene):
     
     code = f"{randint(1,9)}{randint(1,9)}{randint(1,9)}"
     guess = input("[keypad]> ")
-    guesses = 0
+    guesses = 1
+    cheat_code = "999"
+    if guess == cheat_code:
+      code = cheat_code
 
     while guess != code and guesses < 10:
       print("BZZZZEDDD!")
@@ -224,7 +227,7 @@ class EscapePod(Scene):
 class Finished(Scene):
   
   def enter(self):
-    print("yopu won! Good job.")
+    print("you won! Good job.")
     return 'finished'
   
 class Map(object):
